@@ -188,28 +188,22 @@ if(isset($_POST['submit'])){
     <div class="box-container">
 
         <div class="box">
-            <h3>quick links</h3>
+            <h3>links</h3>
             <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
             <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
             <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
-            <a href="#doctors"> <i class="fas fa-chevron-right"></i> doctors </a>
             <a href="#appointment"> <i class="fas fa-chevron-right"></i> appointment </a>
-            <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
-            <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
         </div>
 
         <div class="box">
-            <h3>appointment info</h3>
+            <h3>info</h3>
             <a href="#"> <i class="fas fa-phone"></i> +8801688238801 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +8801782546978 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> wincoder9@gmail.com </a>
             <a href="#"> <i class="fas fa-envelope"></i> sujoncse26@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> sylhet, bangladesh </a>
         </div>
 
     </div>
 
-    <div class="credit"> created by <span>win coder</span> | all rights reserved </div>
+    <div class="credit"> created by <span> Juanito Va!</span> | all rights reserved </div>
 
 </section>
 
