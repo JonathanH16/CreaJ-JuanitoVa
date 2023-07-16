@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
         <a href="#appointment">sugerencia</a>
         <a href="#" class="fas fa-search"></a>
         <a href="#" class="fa fa-shopping-cart"></a>
-        <a href="" class="fas fa-user"></a>
+        <a href="../JUANITO-VA!/login/register.php" class="fas fa-user"></a>
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -122,28 +122,21 @@ if(isset($_POST['submit'])){
 
 <section class="services" id="services">
 
-    <h1 class="heading"> our <span>services</span> </h1>
+    <h1 class="heading"> Nuestros <span> Servicios</span> </h1>
 
     <div class="box-container">
 
         <div class="box">
             <i class="fas fa-pills"></i>
-            <h3>medicines</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-procedures"></i>
-            <h3>bed facility</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <h3>Medicinas</h3>
+            <p>Productos pre-recetados por su doctor se encuentran aca.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
         <div class="box">
             <i class="fas fa-heartbeat"></i>
-            <h3>total care</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+            <h3>Dermoocosmetica</h3>
+            <p>Productos para cuido de su piel.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
@@ -174,12 +167,12 @@ if(isset($_POST['submit'])){
             }
         ?>
       
-            <h3>make appointment</h3>
-            <input type="text"name="name" placeholder="your name" class="box">
-            <input type="number"name="number" placeholder="your number" class="box">
-            <input type="email"name="email" placeholder="your email" class="box">
-            <input type="date"name="date" class="box">
-            <input type="submit" name="submit" value="appointment now" class="btn">
+            <h3>escribe tu sugerencia</h3>
+            <input type="text"name="name" placeholder="nombre" class="box">
+            <input type="number"name="number" placeholder="numero" class="box">
+            <input type="email"name="email" placeholder="email" class="box">
+            <input type="date"name="dia" class="box">
+            <input type="submit" name="submit" value="envialo" class="btn">
         </form>
 
     </div>
