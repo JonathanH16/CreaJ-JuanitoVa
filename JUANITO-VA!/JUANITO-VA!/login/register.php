@@ -45,7 +45,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>Register</title>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
 <div class="form-container">
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>register now</h3>
+      <h3>Registrate ahora</h3>
       <?php
       if(isset($message)){
          foreach($message as $message){
@@ -64,13 +64,13 @@ if(isset($_POST['submit'])){
          }
       }
       ?>
-      <input type="text" name="name" placeholder="enter username" class="box" required>
-      <input type="email" name="email" placeholder="enter email" class="box" required>
-      <input type="password" name="password" placeholder="enter password" class="box" required>
+      <input type="text" name="name" placeholder="username" class="box" required>
+      <input type="email" name="email" placeholder="email" class="box" required>
+      <input type="password" name="password" placeholder="password" class="box" required>
       <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">
-      <input type="submit" name="submit" value="register now" class="btn">
-      <p>already have an account? <a href="login.php">login now</a></p>
+      <input type="submit" name="submit" value="registrate" class="btn">
+      <p>ya tienes cuenta? <a href="login.php">Inicia sesion</a></p>
    </form>
 
 </div>

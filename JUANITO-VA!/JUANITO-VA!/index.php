@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
         <a href="#appointment">sugerencia</a>
         <a href="#" class="fas fa-search"></a>
         <a href="#" class="fa fa-shopping-cart"></a>
-        <a href="../JUANITO-VA!/login/register.php" class="fas fa-user"></a>
+        <a href="../JUANITO-VA!/login/update_profile.php" class="fas fa-user"></a>
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -135,7 +135,7 @@ if(isset($_POST['submit'])){
 
         <div class="box">
             <i class="fas fa-heartbeat"></i>
-            <h3>Dermoocosmetica</h3>
+            <h3>Dermocosmetica</h3>
             <p>Productos para cuido de su piel.</p>
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
