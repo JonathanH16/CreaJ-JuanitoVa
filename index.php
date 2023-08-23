@@ -47,8 +47,8 @@ if(isset($_POST['submit'])){
         <a href="#services">servicios</a>
         <a href="#appointment">sugerencia</a>
         <a href="#" class="fas fa-search"></a>
-        <a href="#" class="fa fa-shopping-cart"></a>
-        <a href="../JUANITO-VA!/login/update_profile.php" class="fas fa-user"></a>
+        <a href="carrito-de-compras-main/index.html" class="fa fa-shopping-cart"></a>
+        <a href="login/update_profile.php" class="fas fa-user"></a>
     </nav>
     <div id="menu-btn" class="fas fa-bars"></div>
 
